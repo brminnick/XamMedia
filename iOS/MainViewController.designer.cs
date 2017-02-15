@@ -15,7 +15,15 @@ namespace XamMedia.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton VimeoLinkButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton YouTubeLinkButton { get; set; }
+
+        [Action ("VimeoLinkButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void VimeoLinkButton_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("YouTubeLinkButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -23,6 +31,11 @@ namespace XamMedia.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (VimeoLinkButton != null) {
+                VimeoLinkButton.Dispose ();
+                VimeoLinkButton = null;
+            }
+
             if (YouTubeLinkButton != null) {
                 YouTubeLinkButton.Dispose ();
                 YouTubeLinkButton = null;
