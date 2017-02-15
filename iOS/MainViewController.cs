@@ -24,6 +24,21 @@ namespace XamMedia.iOS
 
 		async partial void YouTubeLinkButton_TouchUpInside(UIKit.UIButton sender)
 		{
+			var canOpenYouTubeApp = UIApplication.SharedApplication.CanOpenUrl(new NSUrl(_youtubeAppLink));
+
+			if (canOpenYouTubeApp)
+			{
+				OpenYouTubeLinkInApp();
+			}
+			else
+			{
+				await OpenYouTubeLinkInSFSafariViewController();
+			}
+
+		}
+
+		void OpenYouTubeLinkInApp()
+		{
 			if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
 			{
 				var options = new UIApplicationOpenUrlOptions
@@ -31,21 +46,12 @@ namespace XamMedia.iOS
 					SourceApplication = "com.minnick.xammedia"
 				};
 
-				UIApplication.SharedApplication.OpenUrl(new NSUrl(_youtubeAppLink), options, async didYouTubeAppOpen =>
-				{
-					if (!didYouTubeAppOpen)
-						await OpenYouTubeLinkInSFSafariViewController();
-				});
+				UIApplication.SharedApplication.OpenUrl(new NSUrl(_youtubeAppLink), options, null);
 			}
 			else
 			{
-				bool didYouTubeAppOpen = false;
-				didYouTubeAppOpen = UIApplication.SharedApplication.OpenUrl(new NSUrl(_youtubeAppLink));
-
-				if (!didYouTubeAppOpen)
-					await OpenYouTubeLinkInSFSafariViewController();
+				UIApplication.SharedApplication.OpenUrl(new NSUrl(_youtubeAppLink));
 			}
-
 		}
 
 		async Task OpenYouTubeLinkInSFSafariViewController()
