@@ -19,8 +19,17 @@ namespace XamMedia.iOS
 		#endregion
 
 		#region Methods
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			YouTubeLinkButton.AccessibilityIdentifier = AutomationConstants.YouTubeButton;
+
+			VimeoLinkButton.AccessibilityIdentifier = AutomationConstants.VimeoButton;
+		}
+
 		async partial void VimeoLinkButton_TouchUpInside(UIButton sender)
 		{
+			AnalyticsHelpers.TrackEvent(AnalyticsConstants.VimeoButtonTapped);
 			var canOpenVimeoApp = UIApplication.SharedApplication.CanOpenUrl(GetAppUrl(AppType.Vimeo));
 
 			if (canOpenVimeoApp)
@@ -31,6 +40,7 @@ namespace XamMedia.iOS
 
 		async partial void YouTubeLinkButton_TouchUpInside(UIButton sender)
 		{
+			AnalyticsHelpers.TrackEvent(AnalyticsConstants.YouTubeButtonTapped);
 			var canOpenYouTubeApp = UIApplication.SharedApplication.CanOpenUrl(GetAppUrl(AppType.YouTube));
 
 			if (canOpenYouTubeApp)
