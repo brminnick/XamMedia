@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if UITEST
+#else
+using System;
 using System.Collections.Generic;
 using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
@@ -55,4 +57,5 @@ namespace XamMedia
 		Assert, Debug, Error, Info, Verbose, Warn
 	}
 }
+#endif
 

@@ -22,6 +22,9 @@ namespace XamMedia.iOS
 			// If not required for your application you can safely delete this method
 
 			AnalyticsHelpers.Start(AnalyticsConstants.MobileCenteriOSAPIKey);
+#if DEBUG
+			Xamarin.Calabash.Start();
+#endif
 
 			return true;
 		}
