@@ -1,25 +1,38 @@
 ﻿<Properties StartupConfiguration="{858F8D3E-FA3D-42D6-ACB6-A60AEFD78B91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/MainViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamMedia.UITests/AppInitializer.cs">
     <Files>
-      <File FileName="iOS/MainViewController.cs" Line="96" Column="18" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="iOS/MainViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="iOS/AppDelegate.cs" Line="26" Column="29" />
-      <File FileName="iOS/packages.config" Line="1" Column="1" />
-      <File FileName="XamMedia/MyClass.cs" Line="1" Column="1" />
-      <File FileName="XamMedia/Constants/AnalyticsConstants.cs" Line="9" Column="3" />
-      <File FileName="XamMedia/Constants/AutomationConstants.cs" Line="12" Column="1" />
-      <File FileName="XamMedia.UITests/Tests.cs" Line="40" Column="3" />
-      <File FileName="XamMedia.UITests/AppInitializer.cs" Line="43" Column="1" />
+      <File FileName="iOS/MainViewController.cs" Line="27" Column="31" />
+      <File FileName="XamMedia/Constants/AutomationConstants.cs" Line="5" Column="3" />
+      <File FileName="XamMedia.UITests/Tests.cs" Line="32" Column="62" />
+      <File FileName="XamMedia.UITests/AppInitializer.cs" Line="37" Column="56" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="XamMedia" expanded="True">
+            <Node name="XamMedia.UITests" expanded="True">
+              <Node name="Test Apps" expanded="True" />
+              <Node name="XamMedia" expanded="True">
+                <Node name="UITests" expanded="True">
+                  <Node name="Tests" expanded="True">
+                    <Node name="Tests(iOS)" expanded="True">
+                      <Node name="TappedOnYouTubeButton" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.XamMedia.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamMedia.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.fc3e8c06fca1ab7ab4d9aa5a7d3d0a291512a60b" />
+  <MonoDevelop.Ide.ItemProperties.XamMedia.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B0420AE0-2C4B-4AFD-8192-E46BA249A743" />
   <MultiItemStartupConfigurations />
 </Properties>

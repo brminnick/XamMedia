@@ -35,7 +35,7 @@ namespace XamMedia.UITests
 		[Test]
 		public void TappedOnVimeoButton()
 		{
-			app.Tap(x=>x.Marked(AutomationConstants.VimeoButton));
+			app.Tap(x => x.Marked(AutomationConstants.VimeoButton));
 		}
 
 	}

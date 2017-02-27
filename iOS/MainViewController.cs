@@ -64,7 +64,6 @@ namespace XamMedia.iOS
 					SourceApplication = "com.minnick.xammedia"
 				};
 
-
 				UIApplication.SharedApplication.OpenUrl(appUrl, options, null);
 			}
 			else
