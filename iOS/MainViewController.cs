@@ -100,7 +100,7 @@ namespace XamMedia.iOS
 				case AppType.Vimeo:
 					return new NSUrl(@"https://vimeo.com/7913667");
 				case AppType.YouTube:
-					return new NSUrl((@"https://www.youtube.com/watch?v=JJB5ankU9GA");
+					return new NSUrl(@"https://www.youtube.com/watch?v=JJB5ankU9GA");
 				default:
 					throw new Exception("App Type Not Supported");
 			}
