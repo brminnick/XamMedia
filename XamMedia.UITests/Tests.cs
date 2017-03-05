@@ -27,6 +27,12 @@ namespace XamMedia.UITests
 		}
 
 		[Test]
+		public void Repl()
+		{
+			app.Repl();
+		}
+
+		[Test]
 		public void TappedOnYouTubeButton()
 		{
 			app.Tap(x => x.Marked(AutomationConstants.YouTubeButton));
