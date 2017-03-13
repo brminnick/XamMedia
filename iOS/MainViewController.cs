@@ -24,8 +24,8 @@ namespace XamMedia.iOS
 		{
 			base.ViewDidLoad();
 
-			YouTubeLinkButton.AccessibilityIdentifier = AutomationConstants.YouTubeButton;
-			VimeoLinkButton.AccessibilityIdentifier = AutomationConstants.VimeoButton;
+			YouTubeLinkButton.AccessibilityLabel = AutomationConstants.YouTubeButton;
+			VimeoLinkButton.AccessibilityLabel = AutomationConstants.VimeoButton;
 		}
 
 		async partial void VimeoLinkButton_TouchUpInside(UIButton sender)

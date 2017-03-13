@@ -1,36 +1,18 @@
 ﻿<Properties StartupConfiguration="{858F8D3E-FA3D-42D6-ACB6-A60AEFD78B91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamMedia.UITests/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/MainViewController.cs">
     <Files>
-      <File FileName="iOS/MainViewController.cs" Line="27" Column="31" />
+      <File FileName="iOS/MainViewController.cs" Line="15" Column="4" />
       <File FileName="XamMedia/Constants/AutomationConstants.cs" Line="5" Column="3" />
       <File FileName="XamMedia.UITests/Tests.cs" Line="32" Column="62" />
       <File FileName="XamMedia.UITests/AppInitializer.cs" Line="37" Column="56" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="XamMedia" expanded="True">
-            <Node name="XamMedia.UITests" expanded="True">
-              <Node name="Test Apps" expanded="True" />
-              <Node name="XamMedia" expanded="True">
-                <Node name="UITests" expanded="True">
-                  <Node name="Tests" expanded="True">
-                    <Node name="Tests(iOS)" expanded="True">
-                      <Node name="TappedOnYouTubeButton" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.XamMedia.UITests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/brandonm/Projects/GitHub/XamMedia/iOS/MainViewController.cs" relfile="iOS/MainViewController.cs" line="47" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XamMedia.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B0420AE0-2C4B-4AFD-8192-E46BA249A743" />
