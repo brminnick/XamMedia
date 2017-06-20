@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{858F8D3E-FA3D-42D6-ACB6-A60AEFD78B91}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="iOS/MainViewController.cs">
     <Files>
-      <File FileName="iOS/MainViewController.cs" Line="15" Column="4" />
+      <File FileName="iOS/MainViewController.cs" Line="95" Column="3" />
       <File FileName="XamMedia/Constants/AutomationConstants.cs" Line="5" Column="3" />
-      <File FileName="XamMedia.UITests/Tests.cs" Line="32" Column="62" />
+      <File FileName="XamMedia.UITests/Tests.cs" Line="40" Column="9" />
       <File FileName="XamMedia.UITests/AppInitializer.cs" Line="37" Column="56" />
+      <File FileName="iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.XamMedia.UITests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/brandonm/Projects/GitHub/XamMedia/iOS/MainViewController.cs" relfile="iOS/MainViewController.cs" line="47" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamMedia.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B0420AE0-2C4B-4AFD-8192-E46BA249A743" />
+  <MonoDevelop.Ide.ItemProperties.XamMedia.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0B459A8D-A8F4-41F4-AFE6-0A0B8C837543" />
   <MultiItemStartupConfigurations />
 </Properties>
