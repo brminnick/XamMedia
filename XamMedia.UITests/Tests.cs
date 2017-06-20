@@ -7,7 +7,6 @@ using Xamarin.UITest.Queries;
 
 namespace XamMedia.UITests
 {
-	[TestFixture(Platform.Android)]
 	[TestFixture(Platform.iOS)]
 	public class Tests
 	{

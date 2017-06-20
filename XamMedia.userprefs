@@ -1,13 +1,24 @@
 ﻿<Properties StartupConfiguration="{858F8D3E-FA3D-42D6-ACB6-A60AEFD78B91}|Default">
   <MonoDevelop.Ide.ItemProperties.XamMedia HideGettingStarted="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamMedia.UITests/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamMedia.UITests/Tests.cs">
     <Files>
       <File FileName="XamMedia.UITests/AppInitializer.cs" Line="37" Column="56" />
+      <File FileName="XamMedia.UITests/Tests.cs" Line="9" Column="2" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="XamMedia" expanded="True" selected="True" />
+          <Node name="XamMedia" expanded="True" selected="True">
+            <Node name="XamMedia.UITests" expanded="True">
+              <Node name="XamMedia" expanded="True">
+                <Node name="UITests" expanded="True">
+                  <Node name="Tests" expanded="True">
+                    <Node name="Tests(iOS)" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
